@@ -51,4 +51,28 @@ extract_string_body <- function(master_string, string_head, string_tail){
 }
 
 
+#' String Concatenation
+#'
+#' A very short notation for pasting two strings/character vectors together
+#'
+#' @param x the first string
+#' @param y the second string
+#' @return A character vector of concatenated strings 1 and 2
+#' @export
+"&" = function(x,y) {
+  return(paste0(x,y))
+}
+
+
+#' String Zero Padding
+#'
+#' An intuitive way to provide a fixed-width string by padding with leading zeroes.
+#'
+#' @param my_str the input number or string
+#' @param my_nchars the desired fixed-length of the output string
+#' @return A string of my_str padding with zeroes to achieve a string length of my_nchars
+#' @export
+pad_zeroes <- function(my_str, my_nchars){
+  sprintf(paste0("%0",my_nchars,"d"), my_str)
+}
 
