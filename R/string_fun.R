@@ -1,5 +1,3 @@
-# devtools::document()
-
 
 #' Extract characters from the start (left) of a string
 #'
@@ -50,19 +48,6 @@ extract_string_body <- function(master_string, string_head, string_tail){
   my_str <- purrr::flatten(my_str)
   my_str <- as.character(my_str[ii])
   return (my_str)
-}
-
-
-#' String Concatenation
-#'
-#' A very short notation for pasting two strings/character vectors together
-#'
-#' @param x the first string
-#' @param y the second string
-#' @return A character vector of concatenated strings 1 and 2
-#' @export
-"&" = function(x,y) {
-  return(paste0(x,y))
 }
 
 
