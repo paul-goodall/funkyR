@@ -1,3 +1,5 @@
+# devtools::document()
+
 
 #' Extract characters from the start (left) of a string
 #'
