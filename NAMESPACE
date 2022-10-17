@@ -2,8 +2,11 @@
 
 export(extract_string_body)
 export(left)
+export(ones)
 export(pad_zeroes)
 export(right)
 export(rvals)
+export(vvals)
 export(xvals)
 export(yvals)
+export(zeroes)
