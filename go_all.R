@@ -1,4 +1,4 @@
-
+setwd("/Volumes/Abyss/Dropbox/my_DataScience/R_PackageDev/funkyR")
 library(devtools)
 
 
